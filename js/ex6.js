@@ -13,5 +13,6 @@ for (let i = 0; i < 11; i++) {
   else {
     alert("This is not a number!")
     console.log("This is not a number!")
+    break
   }
 }
