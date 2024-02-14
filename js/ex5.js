@@ -4,7 +4,7 @@
 
 console.log("De Paz's Output from Tutorial 4 Password");
 const correctPassword = "secret";
-let i = 0
+let i = 1
 
 while (i <=3) {
   const userInput = prompt("Please enter your password, you have 3 attempts:");
