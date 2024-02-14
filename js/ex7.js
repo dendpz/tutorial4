@@ -4,15 +4,15 @@
 
 console.log("De Paz's Output from Tutorial 4 Following Second");
 
-let hours = Number(prompt("Enter the hour(s):"));
-let minutes = Number(prompt("Enter the minute(s):"));
-let seconds = Number(prompt("Enter the second(s):"));
-let secondsZero = 0
-let minutesZero = 0
-let hoursZero = 0
-let secondAfter = seconds + 1
-let minutesAfter = minutes + 1
-let hoursAfter = hours + 1
+const hours = Number(prompt("Enter the hour(s):"));
+const minutes = Number(prompt("Enter the minute(s):"));
+const seconds = Number(prompt("Enter the second(s):"));
+const secondsZero = 0
+const minutesZero = 0
+const hoursZero = 0
+const secondAfter = seconds + 1
+const minutesAfter = minutes + 1
+const hoursAfter = hours + 1
 
 if ((Number.isInteger(hours)) && (Number.isInteger(minutes)) && (Number.isInteger(seconds))) {
   if (((seconds === 59) && (minutes != 59))) {
