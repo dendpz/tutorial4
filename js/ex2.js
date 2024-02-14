@@ -9,7 +9,7 @@ const userUnits = Number(prompt("How many units did you complete?"));
 if ((Number.isInteger(userUnits)) && userUnits >= 0) {
    if ((userUnits >= 0) && (userUnits <=30)) {
       let gradeStanding = "Freshman";
-      alert(`Hello ${userName}n\ Your grade standing is ${gradeStanding}`);
+      alert(`Hello ${userName}\n Your grade standing is ${gradeStanding}`);
       console.log(`Hello ${userName}n\ Your grade standing is ${gradeStanding}`);
    }
    else if ((userUnits > 30) && (userUnits <= 60)) {
@@ -29,7 +29,7 @@ if ((Number.isInteger(userUnits)) && userUnits >= 0) {
    }
 }
 else {
-   if (isNaN(userUnits) || (userUnits<0)) {
+   if (isNaN(userUnits) || (userUnits<0) || (userUnits % 1 != 0)) {
       alert("That is not a correct units input!")
       console.log("That is not a correct units input!")
    }
