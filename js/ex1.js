@@ -8,6 +8,10 @@ if ((userNumber > 1) && (userNumber < 100)) {
    alert(`Thank you! You entered ${userNumber}, a valid number.`);
    console.log(`Thank you! You entered ${userNumber}, a valid number.`);
 }
+else if (isNaN(userNumber)) {
+   alert("That is not a number!")
+   console.log("That is not a number!")
+}
 else {
    alert(`Sorry, ${userNumber} is not a valid entry.`);
    console.log(`Sorry, ${userNumber} is not a valid entry.`);
