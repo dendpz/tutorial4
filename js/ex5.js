@@ -14,9 +14,9 @@ while (i <=3) {
     i++;
   }
   else if (userInput === correctPassword) {
-    i++;
     alert(`You have entered the correct password after ${i} attempt(s)`);
     console.log(`You have entered the correct password after ${i} attempt(s)`);
+    break
   }
   else {
     alert("Your account is locked! You have failed to enter the correct password 3 times.");
