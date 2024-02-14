@@ -5,8 +5,8 @@
 console.log("De Paz's Output from Tutorial 4 Following Day");
 
 const dayEntered = prompt("Please enter the 3 letter abbreviation of the day in lower case:")
-switch (dayEntered) {
-  case "mon":
+switch (dayEntered) { 
+  case "mon": // I used the case as a validation, first 3 letters
     let followingDay = "tue";
     alert(`You entered: ${dayEntered}\nThe following day is: ${followingDay}`);
     console.log(`You entered: ${dayEntered}\nThe following day is: ${followingDay}`);
@@ -41,6 +41,6 @@ switch (dayEntered) {
     alert(`You entered: ${dayEntered}\nThe following day is: ${followingDay6}`);
     console.log(`You entered: ${dayEntered}\nThe following day is: ${followingDay6}`);
     break
-  default:
+  default: // If input does not pass validation aka doesnt match the case, invalid.
     alert("Not a valid entry")
 }
