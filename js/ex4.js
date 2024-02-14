@@ -9,10 +9,10 @@ const value2 = Number(prompt("Please enter the second integer:"));
 
 if ((Number.isInteger(value1) && (Number.isInteger(value2)))) {
   alert(`Addition: ${value1 + value2}`);
-  alert("Subtraction:", value1 - value2);
-  alert("Multiplication:", value1 * value2);
-  alert("Division:", value1 / value2);
-  alert("Modulo:", value1 % value2);
+  alert(`Subtraction: ${value1 - value2}`);
+  alert(`Multiplication: ${value1 * value2}`);
+  alert(`Division: ${value1 / value2}`);
+  alert(`Modulo: ${value1 % value2}`);
   console.log(value1 + value2, value1 - value2, value1 * value2, value1 / value2, value1 % value2);
 }
 else {
