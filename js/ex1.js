@@ -3,6 +3,7 @@
 */
 
 console.log("De Paz's Output from Tutorial 4 Validate Input");
+
 const userNumber = Number(prompt("Enter a number between 1-100:"));
 if ((userNumber > 1) && (userNumber < 100)) {
    alert(`Thank you! You entered ${userNumber}, a valid number.`);

@@ -3,6 +3,7 @@
 */
 
 console.log("De Paz's Output from Tutorial 4 Password");
+
 const correctPassword = "secret";
 let i = 1
 
