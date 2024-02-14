@@ -14,7 +14,6 @@ while (i <=3) {
     i++;
   }
   else if (userInput === correctPassword) {
-    i++;
     alert(`You have entered the correct password after ${i} attempt(s)`);
     console.log(`You have entered the correct password after ${i} attempt(s)`);
     break
