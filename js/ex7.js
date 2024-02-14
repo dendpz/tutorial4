@@ -18,20 +18,20 @@ if ((Number.isInteger(hours)) && (Number.isInteger(minutes)) && (Number.isIntege
   if (((seconds === 59) && (minutes != 59))) {
     alert(`Time input: ${hours}h${minutes}m${seconds}s`);
     console.log(`Time input: ${hours}h${minutes}m${seconds}s`);
-    alert(`One second later: ${hours}h${minutesAfter}m${secondsZero}`);
-    console.log(`One second later: ${hours}h${minutesAfter}m${secondsZero}`);
+    alert(`One second later: ${hours}h${minutesAfter}m${secondsZero}s`);
+    console.log(`One second later: ${hours}h${minutesAfter}m${secondsZero}s`);
   }
   else if (((seconds === 59) && (minutes === 59) && (hours != 23))) {
     alert(`Time input: ${hours}h${minutes}m${seconds}s`);
     console.log(`Time input: ${hours}h${minutes}m${seconds}s`);
-    alert(`One second later: ${hoursAfter}h${minutesZero}m${secondsZero}`);
-    console.log(`One second later: ${hoursAfter}h${minutesZero}m${secondsZero}`);
+    alert(`One second later: ${hoursAfter}h${minutesZero}m${secondsZero}s`);
+    console.log(`One second later: ${hoursAfter}h${minutesZero}m${secondsZero}s`);
   }
   else if (((seconds === 59) && (minutes === 59) && (hours === 23 ))) {
     alert(`Time input: ${hours}h${minutes}m${seconds}s`);
     console.log(`Time input: ${hours}h${minutes}m${seconds}s`);
-    alert(`One second later: ${hoursZero}h${minutesZero}m${secondsZero}`);
-    console.log(`One second later: ${hoursZero}h${minutesZero}m${secondsZero}`);
+    alert(`One second later: ${hoursZero}h${minutesZero}m${secondsZero}s`);
+    console.log(`One second later: ${hoursZero}h${minutesZero}m${secondsZero}s`);
   }
   else {
     alert(`Time input: ${hours}h${minutes}m${seconds}s`);
