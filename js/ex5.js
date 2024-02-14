@@ -8,7 +8,7 @@ let i = 1
 
 while (i <=3) {
   const userInput = prompt("Please enter your password, you have 3 attempts:");
-  if ((userInput != correctPassword) && i<=3) {
+  if (userInput != correctPassword) {
     alert("Incorrect password, please try again:");
     console.log("Incorrect password, please try again:");
     i++;
