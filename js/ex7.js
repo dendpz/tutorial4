@@ -9,7 +9,7 @@ const minutes = Number(prompt("Enter the minute(s):"));
 const seconds = Number(prompt("Enter the second(s):"));
 
 if ((Number.isInteger(hours)) && (number.isInteger(minutes)) && (Number.isInteger(seconds))) {
-  alert("Here is your number");
+  alert(`Here is what you entered: ${hours+minutes+seconds}`);
   console.log("Here is your number")
 }
 else {
